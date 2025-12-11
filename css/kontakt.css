@@ -259,12 +259,15 @@ input[type="text"], textarea {
         width: 80%;
     }
 
-    .footer {
+     .footer {
         display: flex;
-        height: 80px;
+        height: 100px;
+        width: 100%;
+        
     }
     .footer-left{
         justify-items: flex-start;
         margin-left: -25px;
     }
+
 }
