@@ -239,13 +239,21 @@ nav {
     input[type="text"], textarea {
         width: 80%;
     }
+    ..dugme {
+    display: block;
+    justify-self: center;
+    align-self: center;
+    }
 
     .footer {
         display: flex;
         height: 100px;
+        width: 100%;
+        
     }
     .footer-left{
         justify-items: flex-start;
         margin-left: -25px;
     }
+
 }
