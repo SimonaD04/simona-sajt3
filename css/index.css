@@ -240,9 +240,7 @@ nav {
         width: 80%;
     }
     ..dugme {
-    display: block;
-    justify-self: center;
-    align-self: center;
+        width:50%;
     }
 
     .footer {
@@ -257,3 +255,4 @@ nav {
     }
 
 }
+
