@@ -91,6 +91,7 @@ p:hover {
     cursor: pointer;
     justify-self: center;
     align-self: center;
+    flex-grow: 0;
 }
 .dugme:hover {
      background-color: #ab4b69;
@@ -239,9 +240,6 @@ nav {
     input[type="text"], textarea {
         width: 80%;
     }
-    .dugme {
-        width:50%;
-    }
 
     .footer {
         display: flex;
@@ -255,5 +253,6 @@ nav {
     }
 
 }
+
 
 
