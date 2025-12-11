@@ -239,7 +239,7 @@ nav {
     input[type="text"], textarea {
         width: 80%;
     }
-    ..dugme {
+    .dugme {
         width:50%;
     }
 
@@ -255,4 +255,5 @@ nav {
     }
 
 }
+
 
