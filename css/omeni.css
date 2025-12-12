@@ -278,6 +278,9 @@ h3 {
     .dugme {
         margin: 20px auto;
     }
+    .video{
+        width:100%;
+    }
 
     nav .stranice {
         flex-direction: column;
@@ -300,3 +303,4 @@ h3 {
     }
 
 }
+
