@@ -198,6 +198,7 @@ h2 {
     transition: 0.3s ease;
     margin: auto;
 }
+
 @media (max-width: 600px) {
 
     nav {
@@ -237,21 +238,17 @@ h2 {
     .footer {
         display: flex;
         height: 100px;
+        max-width:600px;
     }
     .footer-left{
-        justify-items: flex-start;
-        margin-left: -15px;
-        margin-bottom: 3px;
+        display:flex;
+        justify-content: center;
     
     }
     .footer-left p {
         margin-bottom: 0px;
-        font-weight: 10px;
+        font-size: 10px;
     }
-    .dugme {
-    display: block;
-    justify-self: center;
-    align-self: center;
 }
 }
 
@@ -261,6 +258,9 @@ h2 {
 
     .dugme {
         margin: 20px auto;
+    }
+    .video{
+        width:100%;
     }
 
     nav .stranice {
@@ -276,13 +276,13 @@ h2 {
     }
 
     .footer {
-        display: flex;
-        height: 100px;
+        max-width:375px;
     }
     .footer-left{
         justify-items: flex-start;
         margin-left: -25px;
     }
+
 }
 
 @keyframes slideDown {
@@ -306,3 +306,4 @@ h2 {
         opacity: 1;
     }
 }
+
