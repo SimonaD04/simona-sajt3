@@ -226,7 +226,7 @@ nav {
 @media (max-width: 375px) {
 
     .dugme {
-        margin: 20px auto;
+        width:100px;
     }
 
     nav .stranice {
@@ -253,6 +253,7 @@ nav {
     }
 
 }
+
 
 
 
