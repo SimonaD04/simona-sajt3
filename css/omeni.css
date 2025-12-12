@@ -279,7 +279,7 @@ h3 {
         margin: 20px auto;
     }
     .video{
-        width:100%;
+        max-width:100%;
     }
 
     nav .stranice {
@@ -303,4 +303,5 @@ h3 {
     }
 
 }
+
 
