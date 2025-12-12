@@ -79,19 +79,16 @@ p:hover {
     width: 100%;
 }
 
-.dugme{
+button{
     display: block;
-    margin: 20px auto;
+    margin: auto;
     padding: 10px 20px;
     font-size: 16px;
     color: white;
     background-color: #ab4b69;
-    text-decoration: none;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    justify-self: center;
-    align-self: center;
-    flex-grow: 0;
 }
 .dugme:hover {
      background-color: #ab4b69;
@@ -253,6 +250,7 @@ nav {
     }
 
 }
+
 
 
 
