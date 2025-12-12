@@ -78,9 +78,8 @@ p:hover {
 .prva {
     width: 100%;
 }
-
-button{
-    display: block;
+.dugme{
+   display: block;
     margin: auto;
     padding: 10px 20px;
     font-size: 16px;
