@@ -166,7 +166,6 @@ input[type="text"], textarea {
     color: #333;
 }
 
-
 .footer-right{
     display: flex;
     align-content:flex-end;
@@ -220,21 +219,17 @@ input[type="text"], textarea {
     .footer {
         display: flex;
         height: 100px;
+        max-width:600px;
     }
     .footer-left{
-        justify-items: flex-start;
-        margin-left: -15px;
-        margin-bottom: 3px;
+        display:flex;
+        justify-content: center;
     
     }
     .footer-left p {
         margin-bottom: 0px;
         font-size: 10px;
     }
-    .dugme {
-    display: block;
-    justify-self: center;
-    align-self: center;
 }
 }
 
@@ -244,6 +239,9 @@ input[type="text"], textarea {
 
     .dugme {
         margin: 20px auto;
+    }
+    .video{
+        width:100%;
     }
 
     nav .stranice {
@@ -258,18 +256,37 @@ input[type="text"], textarea {
         width: 80%;
     }
 
-   
     .footer {
-        display: flex;
-        height: 100px;
-        max-width:600px;
+        max-width:375px;
     }
     .footer-left{
         display:flex;
-        justify-content: center;
+        justify-content:center;
+    }
+
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
     }
 }
 
+@keyframes popIn {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 
 
 
