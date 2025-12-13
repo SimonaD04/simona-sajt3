@@ -240,15 +240,16 @@ nav {
     .footer {
         display: flex;
         height: 100px;
-        width: 100%;
+        width: 375px;
         
     }
     .footer-left{
-        justify-items: flex-start;
-        margin-left: -25px;
+        display:flex;
+        justify-content:center;
     }
 
 }
+
 
 
 
