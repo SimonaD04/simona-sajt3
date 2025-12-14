@@ -149,12 +149,14 @@ p:hover {
     
 }    
 .footer-right p {
-    color: #ffeaea;
-    font-size: 14px;
     text-align: right;
     transition: 0.3s ease;
     margin: auto;
 }
+.footer-right p a{
+    color: #ffeaea;
+    font-size: 14px;
+} 
 
 @media (max-width: 600px) {
 
@@ -249,6 +251,7 @@ nav {
     }
 
 }
+
 
 
 
