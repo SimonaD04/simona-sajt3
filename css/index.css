@@ -148,15 +148,13 @@ p:hover {
     margin-top: 75px;
     
 }    
-.footer-right p {
+.footer-right a{
     text-align: right;
     transition: 0.3s ease;
     margin: auto;
-}
-.footer-right p a{
     color: #ffeaea;
     font-size: 14px;
-} 
+}
 
 @media (max-width: 600px) {
 
@@ -251,6 +249,7 @@ nav {
     }
 
 }
+
 
 
 
