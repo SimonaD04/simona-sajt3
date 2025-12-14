@@ -169,8 +169,6 @@ input[type="text"], textarea {
     display: flex;
     align-content:flex-end;
     margin-top: 75px;
-    
-}    
 }    
 .footer-right a{
     text-align: right;
@@ -178,7 +176,6 @@ input[type="text"], textarea {
     margin: auto;
     color: #f5efee;
     font-size: 12px;
-}
 }
 @media (max-width: 600px) {
 
@@ -284,6 +281,7 @@ input[type="text"], textarea {
         opacity: 1;
     }
 }
+
 
 
 
