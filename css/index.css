@@ -152,8 +152,8 @@ p:hover {
     text-align: right;
     transition: 0.3s ease;
     margin: auto;
-    color: #ffeaea;
-    font-size: 14px;
+    color: #f5efee;
+    font-size: 12px;
 }
 
 @media (max-width: 600px) {
@@ -249,6 +249,7 @@ nav {
     }
 
 }
+
 
 
 
