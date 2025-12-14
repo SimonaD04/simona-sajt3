@@ -179,7 +179,7 @@ input[type="text"], textarea {
     color: #f5efee;
     font-size: 12px;
 }
-
+}
 @media (max-width: 600px) {
 
     nav {
@@ -284,6 +284,7 @@ input[type="text"], textarea {
         opacity: 1;
     }
 }
+
 
 
 
