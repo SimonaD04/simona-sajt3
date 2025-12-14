@@ -210,14 +210,15 @@ h3 {
     align-content:flex-end;
     margin-top: 75px;
     
-}    
-.footer-right p {
-    color: #ffeaea;
-    font-size: 14px;
+}      
+.footer-right a{
     text-align: right;
     transition: 0.3s ease;
     margin: auto;
+    color: #f5efee;
+    font-size: 12px;
 }
+
 @media (max-width: 600px) {
 
     nav {
@@ -303,6 +304,7 @@ h3 {
     }
 
 }
+
 
 
 
