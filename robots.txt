@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://tvoj-sajt.com/sitemap.xml
+Sitemap: https://simonad04.github.io/simona-sajt3/sitemap.xml
