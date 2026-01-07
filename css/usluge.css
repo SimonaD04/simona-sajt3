@@ -61,13 +61,7 @@ nav .stranice a {
 
 nav .stranice a:hover {
     color: #ffbdb4;
-}
-#rezultat{
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    font-weight: bold;
-}
+ }    
 h1 {
     margin-top: 20px;
     color: #A65069;
@@ -146,6 +140,7 @@ h2 {
 .footer{
     background-color: #A65069;
     padding: 20px 40px;
+    margin-top: 275px;
     height: 100px;
     color: #fff;
     display: flex;
@@ -161,13 +156,6 @@ h2 {
     margin-top: 60px;
     color: #ffeaea;
 }
-
-.footer-center {
-    display: flex;
-    gap: 15px;
-    margin-top: 5px;
-}
-
 .social{
     list-style: none;
     margin: 0;
@@ -190,6 +178,12 @@ h2 {
     color: #333;
 }
 
+.footer-center {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
 .footer-right{
     display: flex;
     align-content:flex-end;
@@ -203,7 +197,6 @@ h2 {
     margin: auto;
     color: #f5efee;
     font-size: 12px;
-}
 }
 
 
